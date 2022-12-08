@@ -1,0 +1,70 @@
+<!D<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to INSPIRATION_TOWN1!</title>
+    <link rel="stylesheet" href="/quotes/template/template.css">
+    <link rel="stylesheet" href="/quotes/about/about.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script defer src="//"></script>
+</head>
+<body>
+<section class="header">
+    <nav>
+        <div class="navLinks" id="navLinks">
+            <i class="bi bi-x" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="/quotes/toppage/toppage.html">Home</a></li>
+                <li><a href="/quotes/music/morning.html">Music</a></li>
+                <li><a href="/quotes/about/about.html">About</a></li>
+                <li><a href="/quotes/toppage/toppage.html">Your Profile</a></li>
+            </ul>
+        </div>
+        <i class="bi bi-list" onclick="showMenu()"></i>
+    </nav>
+</section>
+<div class="title">
+    <h1><a href="/quotes/toppage/toppage.html">INSPIRATION TOWN</a></h1>
+</div>
+<script>
+
+    var navLinks=document.getElementById('navLinks')
+
+    function showMenu(){
+        navLinks.style.left='0';
+    }
+
+    function hideMenu(){
+        navLinks.style.left='-200%'
+    }
+
+</script>
+
+
+<!--profile-->
+<section class="profile">
+    
+    <div class="content">
+
+        <li class="text">
+        <h2>About Me</h2>
+        <p>Hi there, I'm Russell Nash. This is "INSPIRATION TOWN". Welcome to one of the most exciting blogs in the world. I made this blog to share with you interesting topics What I've been learning, thinking and I've been into.</p>
+        </li>
+        
+        <li class="text">
+            <h2>What can you get our website?</h2>
+        <p>Are you tired of spending days doing the same thing every day? Are you looking for something new? Are you want to have a more blast day? Then, this is the right place. As I mentioned before I'm going to share with you tons of different topics. and on top of that, there is a Q&A community here. So you can ask anything and share your knowledge as well. Let's learn together!</p>
+        </li>
+        
+            <img src="./2418.jpg">
+        
+    </div>
+    
+</section>
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <link rel="stylesheet" href="log.css">
+</head>
+<body>
+    <div class="center">
+        <!--This is a login page-->
+        <form class="form form--hidden" id="login" method="get">
+            <h1 class="title">Login</h1>
+            <div class="form__massage form__massage---error"></div>
+            <div class="txt-field">
+                <input type="text" class="text" required>
+                <span></span>
+                <label>Username</label>
+            </div>
+            <div class="txt-field">
+                <input type="password" required>
+                <span></span>
+                <label>Password</label>
+            </div>
+            <div class="pass">Forgot password?</div>
+            <input type="submit" value="Login">
+            <div class="signup">
+                Not a member? <a href="#" id="linksignup">Sign up</a>
+            </div>
+        </form>
+
+        <!--This is a create accont page-->
+        <form class="form " id="createAccount">
+            <h1 class="title">Create Account</h1>
+            <div class="form__massage"></div>  
+
+            <div class="error" id="error"></div>
+            <div class="txt-field">
+                <input  id= "username" type="text" required>
+                <span></span>
+                <label>Username</label>
+            </div>
+            <div class="txt-field">
+                <input id="password" type="password" required>
+                <span></span>
+                <label>Password</label>
+            </div>
+            <div class="txt-field">
+                <input id="confirmPassword" type="confirmPassword" required>
+                <span></span>
+                <label>Confirm Password</label>
+            </div>
+           
+            <input type="submit" value="Sign up">
+            <div class="signup">
+                Already have an account? <a href="#" id="linklogin">Sign in </a>
+            </div>
+        </form>
+
+    </div>
+<script src="login.js"></script>
+
+</body>
+</html>

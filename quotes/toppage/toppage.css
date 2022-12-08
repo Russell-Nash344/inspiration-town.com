@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+    margin: 0;
+    background-color:black;
+    font-family: sans-serif;
+}
+
+
+
+div.menulist {
+    display: flex;
+    justify-content: right;
+    font-size: 20px;
+    height: 40px;
+    background-color: red;
+}
+
+.menulist a{
+    text-decoration-color: initial;
+    color: rgb(232, 230, 227);
+}
+
+div.pageList{
+    padding: 5px 30px;
+} 
+
+h1 {
+    
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 2px solid gray;
+    padding: 20px;
+}

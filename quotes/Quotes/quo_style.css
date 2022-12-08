@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://media.istockphoto.com/id/1296889578/ja/%E3%82%B9%E3%83%88%E3%83%83%E3%82%AF%E3%83%95%E3%82%A9%E3%83%88/%E7%BE%8E%E3%81%97%E3%81%84%E5%A4%95%E6%97%A5%E7%A9%BA%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E7%A9%BA%E6%AF%8D%E7%94%B2%E6%9D%BF%E4%B8%8A%E3%81%AE%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E6%88%A6%E9%97%98%E6%A9%9F.jpg?s=612x612&w=0&k=20&c=B_nMJ3_TowbJZmXUgkNykZO_p9e-iE_Pc5KGvjWx9dw=');
+    background-size: cover;
+    
+}   
+
+h1{
+    font-size: 100px;
+    color: blue;
+   
+    
+    
+}
+
+.discription{
+    font-size: 30px;
+    color: red;
+}
+
+.customer  {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+    font-family: fangsong;
+}
+
+#quotext {
+    
+    
+    width: 40%;
+    font-size: 30px;
+    border-radius: 3px; /*ボックス角の丸み*/
+    border: 2px solid #fff; /*枠線*/
+    box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+    font-family: fangsong;
+}
+#button{
+    width: 7.5%;
+    padding: 35px;
+    font-size: 30px;
+    background-color:gray;
+    font-family: fangsong;
+    
+}
+#quotes-list{
+    color: black;
+    font-size: 15px;
+    font-family: fangsong;
+}

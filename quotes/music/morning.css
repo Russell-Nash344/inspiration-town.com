@@ -1,0 +1,108 @@
+/*article*/
+
+
+.artTitle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+ }
+ 
+ .artTitle h2{
+    font-size: 40px;
+ }
+
+
+ .subtitle{
+    display: grid;
+    justify-content: center;
+    
+ }
+
+ .artTag p{
+    font-size: 20px;
+ }
+ .data p{
+    font-size:20px ;
+ }
+ 
+ .pic{
+     margin-top: 50px;
+     height: 600px;
+ 
+ }
+
+
+.content_list{
+  display: grid;
+  place-items: center ;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+.footer{
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    margin-top: 50px;
+    padding: 70px 0 70px 0;
+
+}
+
+
+h3{
+    font-size: 25px;
+    border-bottom:2px solid yellow ;
+}
+
+.video{
+    width: 70%;
+    height: 400px;
+    margin: 50px;
+}
+
+.contentArticle{
+    font-size: 17px;
+    margin-top: 100px;
+    line-height: 1cm;
+}
+.trackNum{
+    font-size: 20px;
+    border-bottom: 2px solid gray;
+    margin: 40px 0 40px 0;
+}
+
+
+.contentTitle{
+    margin-top: 100px;
+}
+.rating div{
+    margin: 200px 0;
+    background-color: antiquewhite;
+}
+
+@media(max-width:700px){
+    .artTitle h2{
+        font-size: 20px;
+     }
+
+     .pic{
+        display: flex;
+        justify-content: center;
+        height: 200px;
+    
+    }
+
+    .contentArticle{
+        font-size: 11px;
+        line-height: 0.5cm;
+    }
+    .video{
+        height: 200px;
+
+    }
+
+   div .subtitle p{
+    font-size: 10px;
+   }
+}

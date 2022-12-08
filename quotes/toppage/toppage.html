@@ -1,0 +1,56 @@
+<!D<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to INSPIRATION_TOWN1!</title>
+    <link rel="stylesheet" href="/quotes/template/template.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script defer src="//"></script>
+</head>
+<body>
+<section class="header">
+    <nav>
+        <div class="navLinks" id="navLinks">
+            <i class="bi bi-x" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="/quotes/toppage/toppage.html">Home</a></li>
+                <li><a href="/quotes/music/morning.html">Music</a></li>
+                <li><a href="/quotes/about/about.html">About</a></li>
+                <li><a href="/quotes/toppage/toppage.html">Your Profile</a></li>
+            </ul>
+        </div>
+        <i class="bi bi-list" onclick="showMenu()"></i>
+    </nav>
+
+    
+</section>
+<div class="title">
+    <h1><a href="/quotes/toppage/toppage.html">INSPIRATION TOWN</a></h1>
+</div>
+
+
+<!--click menu icon-->
+<script>
+
+    var navLinks=document.getElementById('navLinks')
+
+    function showMenu(){
+        navLinks.style.left='0';
+    }
+
+    function hideMenu(){
+        navLinks.style.left='-200%'
+    }
+
+</script>
+    <h1 id="title">Welcome to INSPIRATION TOWN!</h1>
+
+
+
+    
+</body>
+</html>
